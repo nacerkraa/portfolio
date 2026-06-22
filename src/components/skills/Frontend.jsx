@@ -51,8 +51,8 @@ function Frontend() {
                 <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">React</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">Angular</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
             </div>

@@ -55,8 +55,8 @@ function Data() {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Web Developer</h3>
-      <p className="home__description">I'm creative Web Developer based in Algeria, and I'm very passionate and dedicated to my work.</p>
+      <h3 className="home__subtitle">Backend Java Developer</h3>
+      <p className="home__description">I'm creative Java / Spring Boot Backend Developer based in Algeria, and I'm very passionate and dedicated to my work.</p>
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg

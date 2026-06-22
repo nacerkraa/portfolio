@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css"
-import AboutImg from "../../assets/Profile_N.jpg";
-import CV from "../../assets/Nacer-CV.pdf";
+import AboutImg from "../../assets/Profile_N.png";
+import CV from "../../assets/KRAA_Nacer_CV.pdf";
 import Info from './Info';
 
 function About() {
@@ -14,7 +14,11 @@ function About() {
           <div className="about__data">
             <Info />
             <p className="about__description">
-            Full-stack developer with a passion for building innovative web applications. Experienced in React.js, Node.js, and MongoDB, with a focus on creating intuitive user experiences.
+            Software Engineer with a Master's degree in Software Engineering and experience developing backend applications and RESTful APIs using Java, Spring Boot, and modern software engineering practices.
+
+Experienced in designing scalable backend systems, database modeling, authentication and authorization mechanisms, API integration, and application architecture. Familiar with containerized environments, relational databases, and enterprise software development.
+
+Passionate about building reliable and maintainable backend services, solving complex business problems, and continuously improving software quality and performance.
             </p>
 
             <a download="" href={CV} className="button button--flex">Download CV
