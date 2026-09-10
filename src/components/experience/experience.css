@@ -1,0 +1,50 @@
+.experience__container {
+  max-width: 800px;
+}
+
+.experience__item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  column-gap: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.experience__item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  bottom: 0;
+  width: 1px;
+  background: hsl(var(--hue), var(--sat), 82%);
+}
+
+.experience__marker {
+  width: 16px;
+  height: 16px;
+  margin-top: 0.25rem;
+  border: 3px solid var(--title-color);
+  border-radius: 50%;
+  background: var(--container-color);
+  z-index: 1;
+}
+
+.experience__company {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.experience__role {
+  font-size: var(--h3-font-size);
+  margin: 0.25rem 0 0.75rem;
+}
+
+.experience__description {
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+}
+
+.experience__technologies {
+  font-size: var(--small-font-size);
+}
